@@ -1,0 +1,19 @@
+Package: IsolationForestZUM
+Type: Package
+Title: Isolation Tree for ZUM
+Version: 0.1.0
+Author: Lukasz Kabat, Rafal Trybus
+Maintainer: <kabat97@gmail.com>
+Description: Isolation forest implementation containing different tests and experiments
+License: Do not copy
+Encoding: UTF-8
+LazyData: true
+Imports: neuralnet, caret, e1071, imager, ggplot2, dplyr, miscTools, OpenImageR, data.tree, DiagrammeR, ROCR, caTools
+Collate:  HistogramCalculations.R
+          batchProcesses.R
+          IsolationForest.R
+          Logger.R
+          Measures.R
+          SVMTests.R
+          NNTests.R
+          libMain.R
